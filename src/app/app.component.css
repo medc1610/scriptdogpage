@@ -51,7 +51,7 @@
 }
 
 .contacto{
-    height: 700px;
+    height: 850px;
     background-color: rgba(0, 0, 0, 0.85);
     
 }
@@ -64,7 +64,7 @@
 
 @media (max-width:1440px) {
     .servicios{
-        height: 1200px;
+        height: 1400px;
     }
     
     .socios{
@@ -74,7 +74,7 @@
 
 @media (max-width:850px) {
     .servicios{
-        height: 2200px;
+        height: 2400px;
     }
     
 
@@ -93,6 +93,8 @@
     .inicio{
         background: linear-gradient(180deg,rgba(0, 0, 0, 0)11.1%, rgba(0, 0, 0, 0.85) 11% , rgba(22, 22, 22, 0) 20%, rgba(22, 22, 22, 0) 94%, rgba(22, 22, 22, 0)100%)
     }
+
+    
 
     .menu{
         display: none;
@@ -146,7 +148,7 @@
 
     .contacto{
         max-width: 414px;
-        height: 750px;
+        height: 900px;
     }
 
     .pie{
@@ -250,7 +252,7 @@
 
     .contacto{
         max-width: 360px;
-        height: 750px;
+        height: 900px;
     }
 
     .pie{

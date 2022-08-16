@@ -2,7 +2,7 @@
     display: grid;
     justify-items: center;
     align-items: center;
-    height: 600px;
+    height: 750px;
     margin-top: 50px;
 }
 
@@ -141,7 +141,7 @@ h1{
         grid-row: 50px auto auto;
         justify-items: center;
         align-items: center;
-        height: 1100px;
+        height: 1300px;
         margin-top: 50px;
     }
 
