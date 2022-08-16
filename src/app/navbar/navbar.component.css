@@ -1,0 +1,29 @@
+nav{
+    height: 60px;    
+}
+
+img{
+    height: 50px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a{
+    color: aliceblue;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.navbar-nav :hover{
+    color: rgb(14,142,241) !important;
+}
+

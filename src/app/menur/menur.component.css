@@ -1,0 +1,250 @@
+.navbar{
+    height: 100px;
+}
+
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.85)!important;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo1{
+    margin-top: 0px;
+    height: 40px;
+}
+
+.logo2{
+    height: 30px;
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-right: 20px;
+}
+
+.offcanvas{
+    opacity: 0.9!important;
+}
+
+.email a {
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.linkedin a{
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.telefono a{
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 600px 130px auto;
+}
+
+.pie{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.pie h4 {
+    font-size: 15px;
+}
+
+.list-group button{
+    width: 367px;
+    margin-bottom: 15px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.correo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.correo h4 {
+    font-size: 15px;
+}
+
+.numero{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.numero h4 {
+    font-size: 15px;
+}
+
+
+    
+
+@media (max-width:640px){
+    .logo1{
+        margin-top: 0px;
+        height: 20px;
+    }
+
+    
+
+}
+
+@media (max-width:540px){
+    .contenedor{
+        grid-template-rows: 510px auto auto;
+    }
+
+}
+
+
+
+
+@media (max-width:414px){
+    
+    .telefono{
+        display: none;
+    }
+    
+    .linkedin{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+    nav{
+        width: 414px;
+    }
+
+    .contenedor{
+        grid-template-rows: 600px 150px auto;
+    }
+
+    .list-group button{
+        width: 340px;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media (max-width:390px){
+    
+    .telefono{
+        display: none;
+    }
+    
+    .linkedin{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+    nav{
+        width: 390px;
+    }
+
+    .contenedor{
+        grid-template-rows: 640px auto auto;
+    }
+
+    .list-group{
+        height: 250px;
+    }
+
+    .list-group button{
+        width: 340px;
+        margin-bottom: 15px;
+        
+    }
+    
+}
+
+@media (max-width:375px){
+    
+    .telefono{
+        display: none;
+    }
+    
+    .linkedin{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+    nav{
+        width: 375px;
+    }
+
+    .offcanvas{
+        width: 360px;
+    }
+
+    .offcanvas-body{
+        width: 360px;
+    }
+
+    .contenedor{
+        grid-template-rows: 480px auto auto;
+    }
+
+    .list-group{
+        height: 250px;
+    }
+
+    .list-group button{
+        width: 330px;
+        margin-bottom: 15px;
+        
+    }
+
+    .pie h4 {
+        font-size: 12px;
+    }
+    .correo h4 {
+        font-size: 15px;
+    }
+    .numero h4 {
+        font-size: 15px;
+    }
+    
+    
+}
+
+@media (max-width:360px){
+
+    nav{
+        width: 360px;
+    }
+
+}

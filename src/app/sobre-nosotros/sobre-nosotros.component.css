@@ -1,0 +1,352 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    height: 600px;
+}
+
+.titulo{
+display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    background-color: #5a7367da;
+    position: relative;
+    box-shadow: 7px 7px 15px;
+    z-index: 0;
+    top: 70px;
+    left: 20px;
+    height: 180px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.titulo h1 {
+position: relative;
+    top: 50px;
+    left: 60px;
+    color: honeydew;
+    font-family: Dosis;
+    font-size: 70px;
+}
+
+.caja{
+    background-color: aliceblue;
+    border-radius: 50px;
+    top: 30px;
+    left: 80px;
+    height: 5px;
+    width: 350px;
+    position: relative;
+}
+
+p{
+    color: honeydew;
+    font-family: Dosis;
+    font-size: 30px;
+    margin: 30px;
+    line-height: 35px;
+}
+
+.descripcion{    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    background-color: #7B898Cda;
+    position: relative;
+    box-shadow: 7px 7px 15px;
+    z-index: 1;
+    top: 200px;
+    right: 20px;
+    border-radius: 10px;
+    
+}
+
+@media (max-width:1440px){
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        height: 600px;
+    }
+
+    .titulo{
+    display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        background-color: #5a7367da;
+        position: static;
+        box-shadow: 7px 7px 15px;       
+        height: 180px;
+        width: 600px;
+        border-radius: 10px;
+        justify-items: center;
+        align-content: space-around;
+    }
+
+    .titulo h1 {
+    position: static;
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 70px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 350px;
+        position: static;
+    }
+
+    .descripcion{    
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        align-items: center;
+        position: static;
+        height: 400px;
+        width: 700px;
+        background-color: #7B898Cda;        
+        box-shadow: 7px 7px 15px;    
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:800px){    
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-content: space-evenly;
+        height: 700px;
+    }
+    
+    .titulo{
+    height: 140px;
+        width: 500px;
+        
+    }
+
+    .titulo h1 {
+    color: honeydew;
+        font-family: Dosis;
+        font-size: 50px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 300px;
+    }
+
+    .descripcion{  
+        height: 400px;
+        width: 500px;
+    }
+    
+    p{
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 20px;
+        margin: 30px;
+        line-height: 35px;
+    }
+
+    
+
+
+}
+
+@media (max-width:640px){    
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-content: space-evenly;
+        height: 700px;
+    }
+    
+    .titulo{
+    height: 110px;
+        width: 400px;
+        
+    }
+
+    .titulo h1 {
+    color: honeydew;
+        font-family: Dosis;
+        font-size: 40px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 300px;
+    }
+
+    .descripcion{  
+        height: 480px;
+        width: 400px;
+    }
+    
+    p{
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 20px;
+        margin: 30px;
+        line-height: 35px;
+    }
+
+    
+
+
+}
+
+@media (max-width:414px){
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-content: space-evenly;
+        height: 900px;
+        padding: 0;
+    }
+
+    .titulo{
+    height: 100px;
+        width: 300px;
+        
+    }
+
+    .titulo h1 {
+    color: honeydew;
+        font-family: Dosis;
+        font-size: 35px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 250px;
+    }
+
+    .descripcion{  
+        height: 620px;
+        width: 300px;
+    }
+    
+    p{
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 20px;
+        margin: 30px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width:390px){
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-content: space-evenly;
+        height: 900px;
+        padding: 0;
+    }
+
+    .titulo{
+    height: 100px;
+        width: 300px;
+        
+    }
+
+    .titulo h1 {
+    color: honeydew;
+        font-family: Dosis;
+        font-size: 35px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 250px;
+    }
+
+    .descripcion{  
+        height: 620px;
+        width: 300px;
+    }
+    
+    p{
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 20px;
+        margin: 30px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width:375px){
+
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        align-content: space-evenly;
+        height: 900px;
+        padding: 0;
+    }
+
+    .titulo{
+    height: 100px;
+        width: 300px;
+        
+    }
+
+    .titulo h1 {
+    color: honeydew;
+        font-family: Dosis;
+        font-size: 35px;
+    }
+    
+    .caja{
+        background-color: aliceblue;
+        border-radius: 50px;
+        height: 5px;
+        width: 250px;
+    }
+
+    .descripcion{  
+        height: 620px;
+        width: 300px;
+    }
+    
+    p{
+        color: honeydew;
+        font-family: Dosis;
+        font-size: 20px;
+        margin: 30px;
+        line-height: 35px;
+    }
+
+}

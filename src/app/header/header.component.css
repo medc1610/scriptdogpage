@@ -1,0 +1,38 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    height: 85px;
+}
+
+.logotipo img{
+    margin-top: 0px;
+    height: 40px;
+}
+
+.redes{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.correo{
+    grid-column: 1/4;
+    margin-left: 15px;
+    
+}
+
+a{
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+a :hover{
+    color: rgb(14,142,241);
+}
+
+h3{
+    color: aliceblue;
+}
+

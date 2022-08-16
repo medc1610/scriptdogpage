@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Dosis;
+    src: url(./assets/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    padding: 0px;
+    margin: 0px;   
+}
+
+body{
+    background-image: url(./assets/Fondo1.png);
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* body::-webkit-scrollbar{
+    width:10px;    
+    background-size: cover;  
+    overflow-inline:10px;
+    background-color: rgb(51,47,44);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.808);
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-button:start{
+    background: rgba(0, 0, 0, 0.85);
+    height: 60px;
+} */
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width:15px;    
+    background-size: cover;  
+    overflow-inline:10px;
+    background-color: rgb(128, 128, 128);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #79F2C6;
+    border-radius: 50px;
+}
+/* 
+body::-webkit-scrollbar-button:start{
+    background: rgba(0, 0, 0, 0.90);
+    height: 60px;
+} */
